@@ -1,0 +1,94 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nurlan.numberapp.MainActivity">
+    <item
+        android:id="@+id/sqrt"
+        android:orderInCategory="100"
+        android:title="квадратный корень"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/pow"
+        android:orderInCategory="110"
+        android:title="степень"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sin"
+        android:orderInCategory="120"
+        android:title="синус"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/asin"
+        android:orderInCategory="130"
+        android:title="обр. синус"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/max"
+        android:orderInCategory="140"
+        android:title="максимальное"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/min"
+        android:orderInCategory="150"
+        android:title="минимальное"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/round"
+        android:orderInCategory="160"
+        android:title="округление"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sumdigits"
+        android:orderInCategory="170"
+        android:title="сумма символов"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/even"
+        android:orderInCategory="170"
+        android:title="Четные"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/odd"
+        android:orderInCategory="170"
+        android:title="Нечетные"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nonZero"
+        android:orderInCategory="180"
+        android:title="Количество не нулей в массиве"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sum_fives"
+        android:orderInCategory="190"
+        android:title="Сумма положительных кратных 5"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sum_four_eight"
+        android:orderInCategory="210"
+        android:title="Сумма цифр от 4 до 18"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/srednee"
+        android:orderInCategory="185"
+        android:title="Среднее арифметическое введенных чисел ч-з #"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/phone_bill"
+        android:orderInCategory="50"
+        android:title="Счет за тел.разговоры"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/discount"
+        android:orderInCategory="60"
+        android:title="Скидка покупки"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/seasonTime"
+        android:orderInCategory="70"
+        android:title="Времена года"
+        app:showAsAction="never" />
+</menu>
